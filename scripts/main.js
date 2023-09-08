@@ -84,7 +84,8 @@ async function getInputValue(){
     trueValue(value);
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-Blog-e5b4afabf79c4789a8ea034eef8e60ba?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>KimTaeHan-s-Blog</span></a>")
     createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>GameSecurity-Anti-Reversing</span></a>")
-    createText("<a href='https://gaeduck-it.notion.site/CVE-2022-30190-e54a5542fe2f4c60b0349b2c5cb48175?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-2022-30190-Analyze</span></a>")
+    createText("<a href='https://gaeduck-it.notion.site/Cobalt-Strike-83bdb8042cef4ceca9b28454a8f5a452?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>Cobalt-Strike-Analyze</span></a>")
+    createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-Analyze</span></a>")
   }
   else if(value === "about me"){
     trueValue(value);

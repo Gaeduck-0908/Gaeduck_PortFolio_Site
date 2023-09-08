@@ -83,8 +83,8 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-Blog-e5b4afabf79c4789a8ea034eef8e60ba?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>KimTaeHan-s-Blog</span></a>")
-    createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>GameSecurity Anti Reversing</span></a>")
-    createText("<a href='https://gaeduck-it.notion.site/CVE-2022-30190-e54a5542fe2f4c60b0349b2c5cb48175?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-2022-30190 Analyze</span></a>")
+    createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>GameSecurity-Anti-Reversing</span></a>")
+    createText("<a href='https://gaeduck-it.notion.site/CVE-2022-30190-e54a5542fe2f4c60b0349b2c5cb48175?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-2022-30190-Analyze</span></a>")
   }
   else if(value === "about me"){
     trueValue(value);
@@ -94,9 +94,9 @@ async function getInputValue(){
   }
   else if(value === "social -a"){
     trueValue(value);
-    createText("<a href='https://github.com/gaeduck-0908' target='_blank'><i class='fab fa-github white'></i> github.com/gaeduck-0908</a>")
-    createText("<a href='https://www.linkedin.com/in/taehan-kim-bbabb9287/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/taehan-Kim</a>")
-    createText("<a href='https://www.instagram.com/kimtaehan_0908/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/kimtaehan-0908</a>")
+    createText("<a href='https://github.com/gaeduck-0908' target='_blank'><i class='fab fa-github white'></i> <span class = 'blue'>github.com/gaeduck-0908</span></a>")
+    createText("<a href='https://www.linkedin.com/in/taehan-kim-bbabb9287/' target='_blank'><i class='fab fa-linkedin-in white'></i> <span class = 'blue'>linkedin.com/in/taehan-Kim</span></a>")
+    createText("<a href='https://www.instagram.com/kimtaehan_0908/' target='_blank'><i class='fab fa-instagram white'></i> <span class = 'blue'>instagram.com/kimtaehan-0908</span></a>")
   }
   else if(value === "social"){
     trueValue(value);

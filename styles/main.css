@@ -182,3 +182,17 @@ input:focus{
 .icone.error{
   color:#F78F85;
 }
+
+.button {
+    background-color: #424040;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    text-align:center;
+}
+
+.button:hover {
+   background-color:#9CEAF3; 
+}

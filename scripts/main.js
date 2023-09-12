@@ -1,4 +1,3 @@
-ㄴ
 const app = document.querySelector("#app");
 const delay = ms => new Promise(res => setTimeout(res, ms));
     

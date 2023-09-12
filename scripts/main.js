@@ -83,9 +83,9 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-Blog-e5b4afabf79c4789a8ea034eef8e60ba?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>KimTaeHan-s-Blog</span> : 공부 기록을 적어놓은 블로그입니다.</a>")
-    createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>GameSecurity-Anti-Reversing</span> : Game 보안에 대해 연구한 프로젝트입니다.</a>")
-    createText("<a href='https://gaeduck-it.notion.site/Cobalt-Strike-83bdb8042cef4ceca9b28454a8f5a452?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>Cobalt-Strike-Analyze</span> : 사이버작전사령부 소속분과 함께한 도구 분석 프로젝트입니다.</a>")
-    createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-Analyze</span> : CVE 분석 문서입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-gamepad white'></i> <span class = 'blue'>GameSecurity-Anti-Reversing</span> : Game 보안에 대해 연구한 프로젝트입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/Cobalt-Strike-83bdb8042cef4ceca9b28454a8f5a452?pvs=4' target='_blank'><i class='fa fa-ghost white'></i> <span class = 'blue'>Cobalt-Strike-Analyze</span> : 사이버작전사령부 소속분과 함께한 도구 분석 프로젝트입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-flask white'></i> <span class = 'blue'>CVE-Analyze</span> : CVE 분석 문서입니다.</a>")
   }
   else if(value === "about me"){
     trueValue(value);

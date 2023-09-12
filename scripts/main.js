@@ -82,15 +82,15 @@ async function getInputValue(){
   }
   else if(value === "projects"){
     trueValue(value);
-    createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-Blog-e5b4afabf79c4789a8ea034eef8e60ba?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>KimTaeHan-s-Blog</span></a>")
-    createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>GameSecurity-Anti-Reversing</span></a>")
-    createText("<a href='https://gaeduck-it.notion.site/Cobalt-Strike-83bdb8042cef4ceca9b28454a8f5a452?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>Cobalt-Strike-Analyze</span></a>")
-    createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-Analyze</span></a>")
+    createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-Blog-e5b4afabf79c4789a8ea034eef8e60ba?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>KimTaeHan-s-Blog</span> : 공부 기록을 적어놓은 블로그입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>GameSecurity-Anti-Reversing</span> : Game 보안에 대해 연구한 프로젝트입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/Cobalt-Strike-83bdb8042cef4ceca9b28454a8f5a452?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>Cobalt-Strike-Analyze</span> : 사이버작전사령부 소속분과 함께한 도구 분석 프로젝트입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>CVE-Analyze</span> : CVE 분석 문서입니다.</a>")
   }
   else if(value === "about me"){
     trueValue(value);
     createText("이름 : 김태한")
-    createText("(현) 경력 6개월 차 개발자로 ERP 솔루션 기업에서 통합개발팀(주임) 으로 재직중이며 <br>여러 활동을 경험하며 실력을 늘려가고 있습니다. <br>주로 <span class='blue'>Reverse Engineering</span>과 <span class='blue'>Forensic</span> 을 자주하며 <br><span class = 'blue'>Python</span> 개발과 <span class = 'blue'>Rust</span> 개발을 좋아합니다 :)")
+    createText("(현) 경력 7개월 차 개발자로 ERP 솔루션 기업에서 통합개발팀(주임) 으로 재직중이며 <br>여러 활동을 경험하며 실력을 늘려가고 있습니다. <br>주로 <span class='blue'>Reverse Engineering</span>과 <span class='blue'>Forensic</span> 을 자주하며 <br><span class = 'blue'>Python</span> 개발과 <span class = 'blue'>Rust</span> 개발을 좋아합니다 :)")
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-PortFolio-6488302a720146cf84166bbdf90bdf63?pvs=4' target='_blank'><i class='fa fa-user white'></i> <span class = 'blue'>Details</span> < 클릭시 상세 정보 확인이 가능합니다.</a>")
   }
   else if(value === "social -a"){

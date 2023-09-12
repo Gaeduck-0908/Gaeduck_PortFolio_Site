@@ -6,7 +6,7 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
 app.addEventListener("keypress", async function(event){
   if(event.key === "Enter"){
     await delay(150);
-   getInputValue(document.querySelector("input").value.trim());
+   getInputValue();
    
     removeInput();
     await delay(150);
@@ -67,9 +67,9 @@ function removeInput(){
   app.removeChild(div);
 }
 
-async function getInputValue(value){
+async function getInputValue(){
   
-  //const value = document.querySelector("input").value.trim();
+  const value = document.querySelector("input").value.trim();
   if(value === "all"){
     trueValue(value);
     
@@ -144,25 +144,10 @@ function falseValue(value){
 
 function createText(text, classname){
   const p = document.createElement("p");
-
-  const span = document.createElement("span");
-  span.innerHTML = text;
-  span.className = "clickable-text";
-
-  span.addEventListener('click', function() {
-    getInputValue(text);
-      
-    removeInput();
-    await delay(150);
-    new_line();
-  });
-
-/*
+  
   p.innerHTML =
   text
   ;
-  */
-    
   app.appendChild(p);
 }
 

@@ -85,6 +85,7 @@ async function getInputValue(){
     createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-gamepad white'></i> <span class = 'blue'>GameSecurity-Research</span> : Game 보안에 대해 연구한 프로젝트입니다.</a>")
     createText("<a href='https://gaeduck-it.notion.site/Cobalt-Strike-83bdb8042cef4ceca9b28454a8f5a452?pvs=4' target='_blank'><i class='fa fa-ghost white'></i> <span class = 'blue'>Cobalt-Strike-Analyze</span> : 사이버작전사령부 소속분과 함께한 도구 분석 프로젝트입니다.</a>")
     createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-flask white'></i> <span class = 'blue'>CVE-Analyze</span> : CVE 분석 문서입니다.</a>")
+    createText("<a href='https://gaeduck-it.notion.site/619f35ba891843feb445b98a8a774da5?pvs=4' target='_blank'><i class='fa fa-book white'></i> <span class = 'blue'>GameDevelop-Guide</span> : 성일정보고등학교 게임개발 가이드 문서입니다.</a>")
   }
   else if(value === "about me"){
     trueValue(value);

@@ -72,11 +72,11 @@ async function getInputValue(){
   if(value === "all" || value === "2"){
     trueValue(value);
     
-    createCode("about me", "저의 대해 소개하겠습니다.");
-    createCode("all", "모든 명령어를 볼 수 있습니다.");
-    createCode("projects", "프로젝트, 블로그에 대해 볼 수 있습니다.");
-    createCode("social -a", "여러 Social Link 를 볼 수 있습니다.");
-    createCode("clear", "터미널 상태를 Clear 합니다.");
+      createCode("1 or about me", "저의 대해 소개하겠습니다.");
+      createCode("2 or help", "모든 명령어를 볼 수 있습니다.");
+      createCode("3 or projects", "프로젝트, 블로그에 대해 볼 수 있습니다.");
+      createCode("4 or social -a", "여러 Social Link 를 볼 수 있습니다.");
+      createCode("5 or clear", "터미널 상태를 Clear 합니다.");
     
   }
   else if(value === "projects" || value === "3"){

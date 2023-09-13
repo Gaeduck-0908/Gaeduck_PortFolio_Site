@@ -69,7 +69,7 @@ function removeInput(){
 async function getInputValue(){
   
   const value = document.querySelector("input").value.trim();
-  if(value === "all" || "2"){
+  if(value === "all" || value === "2"){
     trueValue(value);
     
     createCode("about me", "저의 대해 소개하겠습니다.");
@@ -79,7 +79,7 @@ async function getInputValue(){
     createCode("clear", "터미널 상태를 Clear 합니다.");
     
   }
-  else if(value === "projects" || "3"){
+  else if(value === "projects" || value === "3"){
     trueValue(value);
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-Blog-e5b4afabf79c4789a8ea034eef8e60ba?pvs=4' target='_blank'><i class='fa fa-blog white'></i> <span class = 'blue'>KimTaeHan-s-Blog</span> : 공부 기록을 적어놓은 블로그입니다.</a>")
     createText("<a href='https://gaeduck-it.notion.site/GameSecurity_Anti_Reversing-68a1c9a073d748e2a715abacc21dcdde?pvs=4' target='_blank'><i class='fa fa-gamepad white'></i> <span class = 'blue'>GameSecurity-Research</span> : Game 보안에 대해 연구한 프로젝트입니다.</a>")
@@ -87,19 +87,19 @@ async function getInputValue(){
     createText("<a href='https://gaeduck-it.notion.site/CVE-Analyze-495491c30c714273a182bf691262d737?pvs=4' target='_blank'><i class='fa fa-flask white'></i> <span class = 'blue'>CVE-Analyze</span> : CVE 분석 문서입니다.</a>")
     createText("<a href='https://gaeduck-it.notion.site/619f35ba891843feb445b98a8a774da5?pvs=4' target='_blank'><i class='fa fa-book white'></i> <span class = 'blue'>GameDevelop-Guide</span> : 성일정보고등학교 게임개발 가이드 문서입니다.</a>")
   }
-  else if(value === "about me" || "1"){
+  else if(value === "about me" || value === "1"){
     trueValue(value);
     createText("이름 : 김태한")
     createText("(현) 경력 7개월 차 개발자로 ERP 솔루션 기업에서 통합개발팀(주임) 으로 재직중이며 <br>여러 활동을 경험하며 실력을 늘려가고 있습니다. <br>주로 <span class='blue'>Reverse Engineering</span>과 <span class='blue'>Forensic</span> 을 자주하며 <br><span class = 'blue'>Python</span> 개발과 <span class = 'blue'>Rust</span> 개발을 좋아합니다 :)")
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-PortFolio-6488302a720146cf84166bbdf90bdf63?pvs=4' target='_blank'><i class='fa fa-user white'></i> <span class = 'blue'>Details</span> < 클릭시 활동,수상 경력등 상세 정보 확인이 가능합니다.</a>")
   }
-  else if(value === "social -a" || "4"){
+  else if(value === "social -a" || value === "4"){
     trueValue(value);
     createText("<a href='https://github.com/gaeduck-0908' target='_blank'><i class='fab fa-github white'></i> <span class = 'blue'>github.com/gaeduck-0908</span></a>")
     createText("<a href='https://www.linkedin.com/in/taehan-kim-bbabb9287/' target='_blank'><i class='fab fa-linkedin-in white'></i> <span class = 'blue'>linkedin.com/in/taehan-Kim</span></a>")
     createText("<a href='https://www.instagram.com/kimtaehan_0908/' target='_blank'><i class='fab fa-instagram white'></i> <span class = 'blue'>instagram.com/kimtaehan-0908</span></a>")
   }
-  else if(value === "social" || "5"){
+  else if(value === "social" || value === "5"){
     trueValue(value);
     createText("대신 이걸 입력해주세요. : social -a")
   }

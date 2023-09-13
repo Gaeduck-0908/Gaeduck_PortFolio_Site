@@ -99,12 +99,12 @@ async function getInputValue(){
     createText("<a href='https://www.linkedin.com/in/taehan-kim-bbabb9287/' target='_blank'><i class='fab fa-linkedin-in white'></i> <span class = 'blue'>linkedin.com/in/taehan-Kim</span></a>")
     createText("<a href='https://www.instagram.com/kimtaehan_0908/' target='_blank'><i class='fab fa-instagram white'></i> <span class = 'blue'>instagram.com/kimtaehan-0908</span></a>")
   }
-  else if(value === "social" || value === "5"){
+  else if(value === "social"){
     trueValue(value);
     createText("대신 이걸 입력해주세요. : social -a")
   }
   
-  else if(value === "clear"){
+  else if(value === "clear" ||  value === "5"){
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
   }

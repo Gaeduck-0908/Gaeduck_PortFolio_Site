@@ -90,7 +90,7 @@ async function getInputValue(){
   else if(value === "about me" || value === "1"){
     trueValue(value);
     createText("이름 : 김태한")
-    createText("(현) 경력 7개월 차 개발자로 ERP 솔루션 기업에서 통합개발팀(주임) 으로 재직중이며 <br>여러 활동을 경험하며 실력을 늘려가고 있습니다. <br>주로 <span class='blue'>Reverse Engineering</span>과 <span class='blue'>Forensic</span> 을 자주하며 <br><span class = 'blue'>Python</span> 개발과 <span class = 'blue'>Rust</span> 개발을 좋아합니다 :)")
+    createText("(현) 경력 8개월 차 개발자로 ERP 솔루션 기업에서 통합개발팀(주임) 으로 재직중이며 <br>여러 활동을 경험하며 실력을 늘려가고 있습니다. <br>주로 <span class='blue'>Reverse Engineering</span>과 <span class='blue'>Forensic</span> 을 자주하며 <br><span class = 'blue'>Python</span> 개발과 <span class = 'blue'>Rust</span> 개발을 좋아합니다 :)")
     createText("<a href='https://gaeduck-it.notion.site/KimTaeHan-s-PortFolio-6488302a720146cf84166bbdf90bdf63?pvs=4' target='_blank'><i class='fa fa-user white'></i> <span class = 'blue'>Details</span> < 클릭시 활동,수상 경력등 상세 정보 확인이 가능합니다.</a>")
   }
   else if(value === "social -a" || value === "4"){

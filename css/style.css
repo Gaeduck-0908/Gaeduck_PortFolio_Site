@@ -116,7 +116,7 @@ section.main p {
     color: #94a1b2;
     font-size: 15px;
     width: 100;
-    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 530ms steps(44) infinite normal;
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 450ms steps(44) infinite normal;
 }
 
 section.main ul {
